@@ -1,1 +1,15 @@
+Blockchain is an immutable decentralized ledger which records and stores transactions in a transparent, secure and tamper-proof way,
+These transactions are stored in blocks, these blocks are hashed with the transactions in it,
+These hashes of block is connected to the previous block, making a merkle tree,
+So in order to tamper any block, the hashes of all previous blocks need to be changed which is mathematically impossible.
 
+And unlike traditional DB, which is controlled by a central authority,
+ blockchain is a p2p network in which every user has a copy of the ledger and users agree to reach consensus to decide the state of blockchain.
+
+Use Case:
+
+Blockchain In Real Estate
+Tokenized real estate transactions and digital ownership transfer through smart contracts.
+
+Cross-Border Payments
+Fast, low-cost, and transparent cross-border money transfers.
