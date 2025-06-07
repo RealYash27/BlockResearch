@@ -1,0 +1,16 @@
+
+[PoW] Proof of Work Consensus:
+Validator power levels: {'Miner Alice': 96, 'Miner Bob': 83, 'Miner Carol': 6}
+Selected: Miner Alice (highest computational power: 96)
+Logic: The miner with the highest hash power wins the right to add the block.
+
+[PoS] Proof of Stake Consensus:
+Validator stakes: {'Staker Alice': 566, 'Staker Bob': 164, 'Staker Carol': 855}
+Selected: Staker Carol (highest stake: 855)
+Logic: The staker with the most coins staked is most likely to be chosen.
+
+[DPoS] Delegated Proof of Stake Consensus:
+Voter choices: {'Voter1': 'Alice', 'Voter2': 'Alice', 'Voter3': 'Charlie'}
+Vote counts: {'Alice': 2, 'Bob': 0, 'Charlie': 1}
+Selected delegate: Alice
+Logic: Delegates are voted in by token holders. The most-voted delegate validates the block.
