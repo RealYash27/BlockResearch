@@ -1,0 +1,26 @@
+[MINING] Block 1 | Difficulty: 1
+[SUCCESS] Block 1 mined!
+  ➤ Nonce attempts : 44
+  ➤ Final Hash     : 0ea58654791b5126ebca57e71c9d3da3e5e343c291c41e389026de8b322adaf9
+  ➤ Time Taken     : 0.0000 sec
+
+[FINAL BLOCK DATA]
+Index         : 1
+Data          : Sample Data
+Nonce         : 44
+Prev. Hash    : 0000abc
+Final Hash    : 0ea58654791b5126ebca57e71c9d3da3e5e343c291c41e389026de8b322adaf9
+
+
+
+[MINING] Block 1 | Difficulty: 4
+[SUCCESS] Block 1 mined!
+  ➤ Final Hash     : 000015d31f74b92c8c8150927f9c573b71affe2288658e07b7594bd208a19bac
+  ➤ Time Taken     : 0.0956 sec
+
+[FINAL BLOCK DATA]
+Index         : 1
+Data          : Sample Data
+Nonce         : 35493
+Prev. Hash    : 0000abc
+Final Hash    : 000015d31f74b92c8c8150927f9c573b71affe2288658e07b7594bd208a19bac
