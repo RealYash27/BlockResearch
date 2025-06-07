@@ -1,0 +1,56 @@
+[INFO] Block 1 added with hash: 38915b7708ef0068404d6d907e155ccca165e61641150782edae52f916ed700d
+[INFO] Block 2 added with hash: 6e8f1a4053739d34561380fff0f1d9e8e6c92f37b5dcb48d4a605bbb3701b4e5
+
+[STATUS] Original Blockchain:
+
+[CHAIN DATA] -------------------------------
+Index       : 0
+Timestamp   : 1749279727.3804522
+Data        : Genesis Block
+Nonce       : 0
+Prev. Hash  : 0
+Hash        : 97c1999a61184eaba3d090e45cd32accd0fbd072fb5287336049115ec01b9a44
+--------------------------------------------
+Index       : 1
+Timestamp   : 1749279727.3814528
+Data        : Block 1 Data
+Nonce       : 0
+Prev. Hash  : 97c1999a61184eaba3d090e45cd32accd0fbd072fb5287336049115ec01b9a44
+Hash        : 38915b7708ef0068404d6d907e155ccca165e61641150782edae52f916ed700d
+--------------------------------------------
+Index       : 2
+Timestamp   : 1749279727.3814528
+Data        : Block 2 Data
+Nonce       : 0
+Prev. Hash  : 38915b7708ef0068404d6d907e155ccca165e61641150782edae52f916ed700d
+Hash        : 6e8f1a4053739d34561380fff0f1d9e8e6c92f37b5dcb48d4a605bbb3701b4e5
+--------------------------------------------
+[INFO] Blockchain is valid.
+
+[ATTACK] Tampering with Block 1's data...
+
+[STATUS] Blockchain after tampering:
+
+[CHAIN DATA] -------------------------------
+Index       : 0
+Timestamp   : 1749279727.3804522
+Data        : Genesis Block
+Nonce       : 0
+Prev. Hash  : 0
+Hash        : 97c1999a61184eaba3d090e45cd32accd0fbd072fb5287336049115ec01b9a44
+--------------------------------------------
+Index       : 1
+Timestamp   : 1749279727.3814528
+Data        : Tampered Data
+Nonce       : 0
+Prev. Hash  : 97c1999a61184eaba3d090e45cd32accd0fbd072fb5287336049115ec01b9a44
+Hash        : 98fe34c06502e5f94c3d335dd7185d2229b97e933ef9425e674e563b79461d78
+--------------------------------------------
+Index       : 2
+Timestamp   : 1749279727.3814528
+Data        : Block 2 Data
+Nonce       : 0
+Prev. Hash  : 38915b7708ef0068404d6d907e155ccca165e61641150782edae52f916ed700d
+Hash        : 6e8f1a4053739d34561380fff0f1d9e8e6c92f37b5dcb48d4a605bbb3701b4e5
+--------------------------------------------
+[ERROR] Block 2's previous hash does not match.
