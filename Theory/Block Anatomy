@@ -1,0 +1,23 @@
+
++---------------------------------------------------------+
+|                      BLOCK                              |
++---------------------------------------------------------+
+| Previous Hash : 00xx....                                |
+| Timestamp     : 07-06-2025 10:45:30                     |
+| Nonce         : 102938                                  |  
+| Merkle Root   : 00yy....                                |
++---------------------------------------------------------+
+|                     DATA                                |
++---------------------------------------------------------+
+| Transaction 1: Alice → Bob: 2 BTC                       |
+| Transaction 2: Raj → Prem: 1.5 BTC                      |
+| ....                                                    |
++---------------------------------------------------------+
+
+Merkle Root & Data Integrity
+The Merkle Root is a single hash that summarizes all transactions in a block using a Merkle Tree. 
+Each transaction is hashed, then pairs of hashes are combined and hashed again, recursively, until one final root hash remains.
+
+It helps verify data integrity by enabling quick and efficient validation that the data has not been altered. 
+If any transaction within the block is changed, the Merkle root will also change, signaling that the data has been tampered with.
+ This allows nodes to confirm the integrity of the entire dataset without checking every individual transaction.
