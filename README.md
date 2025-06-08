@@ -34,6 +34,7 @@ Fast, low-cost, and transparent cross-border money transfers.
 | Transaction 2: Raj → Prem: 1.5 BTC                      |
 | ....                                                    |
 +---------------------------------------------------------+
+
 (refer to Theory/Block Anatomy for better diagram)
 
 Merkle Root & Data Integrity
