@@ -34,6 +34,7 @@ Fast, low-cost, and transparent cross-border money transfers.
 | Transaction 2: Raj → Prem: 1.5 BTC                      |
 | ....                                                    |
 +---------------------------------------------------------+
+(refer to Theory/Block Anatomy for better diagram)
 
 Merkle Root & Data Integrity
 The Merkle Root is a single hash that summarizes all transactions in a block using a Merkle Tree. 
